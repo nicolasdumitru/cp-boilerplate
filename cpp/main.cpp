@@ -13,12 +13,17 @@ using i32 = std::int32_t;
 using u64 = std::uint64_t;
 using i64 = std::int64_t;
 
-using std::cin;
-using std::cout;
 using std::cerr;
+using std::cout;
+
+template <typename T>
+inline auto read() -> T {
+    T value = (std::cin >> value, value);
+    return value;
+}
 
 int main() {
-    std::ios::sync_with_stdio(false);
+    //std::ios::sync_with_stdio(false);
 
     return 0;
 }
