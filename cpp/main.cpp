@@ -22,8 +22,8 @@ inline auto read() -> T {
     return value;
 }
 
-int main() {
-    //std::ios::sync_with_stdio(false);
+auto main() -> int {
+    // std::ios::sync_with_stdio(false);
 
     return 0;
 }
